@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "280066846316",
+    "firebase_url": "https://androidfoodorder-ddb32.firebaseio.com",
+    "project_id": "androidfoodorder-ddb32",
+    "storage_bucket": "androidfoodorder-ddb32.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:280066846316:android:4870cedc6491bbad",
+        "android_client_info": {
+          "package_name": "com.amir_hamza_sabuz.androidfoodorder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "280066846316-8lbsl216nruh8i7igal54o884sfd9msk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.amir_hamza_sabuz.androidfoodorder",
+            "certificate_hash": "52696253b32ee2e0be03cafe4544bb982fd9e463"
+          }
+        },
+        {
+          "client_id": "280066846316-84cj5igojm2ga6tsn5rhb8fcf1g0i598.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUFL2J7fsC5x0EuMib255K-OQJcol2WtQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "280066846316-84cj5igojm2ga6tsn5rhb8fcf1g0i598.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

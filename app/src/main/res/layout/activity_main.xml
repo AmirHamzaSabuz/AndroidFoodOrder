@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:src="@drawable/logo_food_order"
+            android:layout_width="300dp"
+            android:layout_height="300dp" />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtSlogan"
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            android:text="@string/slogan"
+            android:textSize="20dp"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:weightSum= "2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:id="@+id/btnSignUp"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:text="Sing UP"
+            android:textSize="30sp"
+            android:background="@drawable/signup"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:clickable="true"
+            />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:id="@+id/btnLogIn"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:text="Log In"
+            android:textSize="30sp"
+            android:background="@drawable/login"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:clickable="true"
+
+            />
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>
